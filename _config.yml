@@ -1,0 +1,37 @@
+title: "Dmitrii Vyrikov | QA Automation Java"
+description: "Personal portfolio and technical blog about Java QA automation, UI/API testing, CI pipelines, and test architecture."
+url: "https://dmitriitha.github.io"
+baseurl: ""
+lang: "en"
+timezone: "Europe/Moscow"
+
+author:
+  name: "Dmitrii Vyrikov"
+  role: "QA Automation Engineer | Java"
+  email: "deconstruction142@gmail.com"
+  github: "https://github.com/dmitriitha"
+  linkedin: "https://www.linkedin.com/in/dmitrii-tha"
+  telegram: "https://t.me/fromfuturewithlove"
+
+analytics:
+  cloudflare_token: "36fc5517814f45aa8ee4937ab0e665f2"
+  ga_measurement_id: ""
+
+forms:
+  formspree_endpoint: "https://formspree.io/f/YOUR_FORM_ID"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Dmitrii Vyrikov"
+
+permalink: /blog/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md

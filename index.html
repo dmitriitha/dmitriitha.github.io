@@ -1,0 +1,103 @@
+---
+layout: default
+title: "QA Automation Java Portfolio"
+description: "Portfolio and technical blog for Dmitrii Vyrikov, QA Automation Engineer focused on Java, UI/API automation, CI, and reliable test architecture."
+---
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">QA Automation Java</p>
+      <h1>I build test automation that recruiters can inspect and engineers can trust.</h1>
+      <p class="lead">A practical portfolio and technical blog about Java automation frameworks, Selenium/Selenide, REST Assured, CI pipelines, Allure reporting, and debugging flaky tests.</p>
+      <div class="cta-row">
+        <a class="button" href="{{ '/projects/' | relative_url }}">View projects</a>
+        <a class="button secondary" href="{{ '/assets/resume/dmitrii-vyrikov-qa-auto-java-resume.pdf' | relative_url }}" data-track="resume_download">Download resume</a>
+        <a class="button secondary" href="{{ site.author.linkedin }}" data-track="linkedin_click">LinkedIn</a>
+      </div>
+      <div class="tag-row" aria-label="Core skills">
+        <span>Java</span>
+        <span>Selenium</span>
+        <span>Selenide</span>
+        <span>REST Assured</span>
+        <span>JUnit/TestNG</span>
+        <span>Allure</span>
+        <span>CI/CD</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="signal-strip" aria-label="Professional signals">
+  <div class="container signal-grid">
+    <div class="signal">
+      <strong>UI</strong>
+      <span>Page objects, stable selectors, flaky test prevention.</span>
+    </div>
+    <div class="signal">
+      <strong>API</strong>
+      <span>REST Assured suites with readable contracts and diagnostics.</span>
+    </div>
+    <div class="signal">
+      <strong>CI</strong>
+      <span>Maven pipelines, parallel runs, reports, and artifacts.</span>
+    </div>
+    <div class="signal">
+      <strong>Docs</strong>
+      <span>Blog posts that explain decisions, tradeoffs, and debugging.</span>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Portfolio</p>
+        <h2>Selected automation case studies</h2>
+      </div>
+      <p>Each project is written as evidence: what problem it solves, how the framework is structured, and what signal it gives to a team.</p>
+    </div>
+    <div class="card-grid">
+      <article class="card">
+        <p class="meta">UI automation</p>
+        <h3>Java UI framework with Selenide</h3>
+        <p>Clean page objects, reusable waits, screenshots on failure, Allure steps, and CI-ready Maven commands.</p>
+        <a href="{{ '/projects/#ui-framework' | relative_url }}">Read case study</a>
+      </article>
+      <article class="card">
+        <p class="meta">API automation</p>
+        <h3>REST Assured service tests</h3>
+        <p>Layered clients, request/response specs, schema checks, negative cases, and readable failure output.</p>
+        <a href="{{ '/projects/#api-framework' | relative_url }}">Read case study</a>
+      </article>
+      <article class="card">
+        <p class="meta">Delivery signal</p>
+        <h3>CI pipeline and reports</h3>
+        <p>GitHub Actions workflow for smoke/regression suites, Allure artifacts, and clear pass/fail diagnostics.</p>
+        <a href="{{ '/projects/#ci-reporting' | relative_url }}">Read case study</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Blog</p>
+        <h2>Latest technical notes</h2>
+      </div>
+      <a class="button light" href="{{ '/blog/' | relative_url }}">All posts</a>
+    </div>
+    <div class="card-grid">
+      {% for post in site.posts limit:3 %}
+      <article class="card">
+        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <div class="container narrow">
+      <a class="back-link" href="{{ '/blog/' | relative_url }}">Back to blog</a>
+      <p class="eyebrow">{{ page.date | date: "%B %-d, %Y" }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.excerpt %}
+      <p class="lead">{{ page.excerpt | strip_html }}</p>
+      {% endif %}
+      {% if page.tags %}
+      <div class="tag-row" aria-label="Tags">
+        {% for tag in page.tags %}
+        <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+  <div class="content-section">
+    <div class="container narrow prose">
+      {{ content }}
+    </div>
+  </div>
+</article>

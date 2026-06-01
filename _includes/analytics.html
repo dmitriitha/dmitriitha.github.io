@@ -1,0 +1,13 @@
+{% if site.analytics.cloudflare_token and site.analytics.cloudflare_token != "" %}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ site.analytics.cloudflare_token }}"}'></script>
+{% endif %}
+
+{% if site.analytics.ga_measurement_id and site.analytics.ga_measurement_id != "" %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.ga_measurement_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "{{ site.analytics.ga_measurement_id }}");
+</script>
+{% endif %}

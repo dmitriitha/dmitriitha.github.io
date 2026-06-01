@@ -1,6 +1,6 @@
 ---
 title: "Common Flaky Test Causes and How I Debug Them"
-date: 2026-05-28
+date: 2025-04-02
 tags: ["Flaky tests", "Debugging", "UI automation", "CI"]
 excerpt: "Flaky tests are usually symptoms. I debug them by grouping failures, finding the highest-frequency causes, and fixing trust first."
 ---

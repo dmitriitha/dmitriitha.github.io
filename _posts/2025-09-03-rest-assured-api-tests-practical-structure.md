@@ -1,6 +1,6 @@
 ---
 title: "REST Assured API Tests: Practical Structure"
-date: 2026-05-30
+date: 2025-09-03
 tags: ["REST Assured", "Java", "API testing", "Test design"]
 excerpt: "A maintainable API test suite separates clients, specs, test data, and assertions so failures are easy to understand."
 ---

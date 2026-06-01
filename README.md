@@ -1,54 +1,53 @@
-# Dmitrii Vyrikov QA Automation Java Blog
+# Dmitrii tha QA Automation Java Blog
 
-Static personal portfolio and technical blog built for GitHub Pages and Jekyll.
+This repository contains the personal website and technical blog of Dmitrii tha, a QA Automation Engineer focused on Java-based test automation.
 
-## Quick Start
+The website is designed as a public professional profile for recruiters, hiring managers, and engineers who want to understand Dmitrii's technical focus, project style, and approach to quality engineering.
 
-1. Create a public GitHub repository named `YOUR_GITHUB_USERNAME.github.io`.
-2. Copy these files into that repository.
-3. Edit `_config.yml`:
-   - replace `YOUR_GITHUB_USERNAME`
-   - replace LinkedIn, email, Telegram if needed
-   - add Cloudflare Web Analytics token when available
-   - add Formspree form endpoint when available
-4. Push to GitHub.
-5. Open `Settings -> Pages` and set the source to `GitHub Actions`.
-6. Push to `main`; the workflow in `.github/workflows/pages.yml` will build and deploy the site.
+## Purpose
 
-The site will be available at:
+The site presents Dmitrii's QA Automation Java profile in one place:
+
+- a concise professional introduction;
+- selected automation case studies;
+- technical writing about UI automation, API testing, CI, reporting, and flaky test debugging;
+- contact links for professional conversations;
+- a downloadable resume.
+
+## Main Topics
+
+The blog focuses on practical QA automation work with:
+
+- Java;
+- Selenium and Selenide;
+- REST Assured;
+- JUnit and TestNG;
+- Maven;
+- Allure reporting;
+- GitHub Actions and CI/CD;
+- test architecture and maintainability.
+
+## Audience
+
+The website is intended for:
+
+- recruiters evaluating QA Automation Java experience;
+- engineering managers looking for practical automation signals;
+- QA engineers interested in framework structure and test strategy;
+- developers who want clear examples of testing decisions and tradeoffs.
+
+## Website Structure
+
+- Homepage: a quick overview of Dmitrii's QA automation profile.
+- About: professional background, working style, core stack, and resume download.
+- Projects: case studies for UI automation, API testing, CI reporting, and flaky test analysis.
+- Blog: technical posts explaining practical automation decisions.
+- Contact: email, GitHub, LinkedIn, Telegram, and contact form.
+
+## Live Site
+
+The published website is available at:
 
 ```text
-https://YOUR_GITHUB_USERNAME.github.io
+https://dmitriitha.github.io
 ```
-
-## Local Preview
-
-Install Ruby and Bundler, then run:
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-If your macOS system Ruby is too old for local development, use a modern Ruby with `rbenv` or `asdf`. The included GitHub Actions workflow uses Ruby 3.3 for deployment.
-
-If you do not want local Ruby setup, GitHub Pages can build the site through GitHub Actions after each push.
-
-## Content
-
-- Homepage: `index.html`
-- About: `about.md`
-- Projects: `projects.md`
-- Blog index: `blog.html`
-- Posts: `_posts/YYYY-MM-DD-title.md`
-- Contact: `contact.md`
-- Resume: `resume.md`
-- Resume PDF: `assets/resume/dmitrii-vyrikov-qa-auto-java-resume.pdf`
-
-## Analytics And Forms
-
-- Cloudflare Web Analytics: add the token to `_config.yml`.
-- GA4: add `ga_measurement_id` to track resume, social, and contact clicks.
-- Formspree: replace `YOUR_FORM_ID` in `_config.yml`.
-
-Cloudflare Web Analytics is good for privacy-friendly traffic stats. GA4 is optional and useful if you want custom click events.

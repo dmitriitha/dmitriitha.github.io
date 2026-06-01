@@ -1,6 +1,6 @@
 ---
 title: "Selenium vs Selenide in Real QA Projects"
-date: 2026-05-29
+date: 2025-06-12
 tags: ["Selenium", "Selenide", "Java", "UI automation"]
 excerpt: "Selenium gives direct browser control; Selenide adds concise synchronization and assertions. The right choice depends on team needs."
 ---

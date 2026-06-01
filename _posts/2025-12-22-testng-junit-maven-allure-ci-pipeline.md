@@ -1,6 +1,6 @@
 ---
 title: "TestNG/JUnit, Maven, Allure and CI Pipeline"
-date: 2026-05-31
+date: 2025-12-22
 tags: ["JUnit 5", "TestNG", "Maven", "Allure", "CI/CD"]
 excerpt: "A Java automation project becomes much more useful when it runs reliably in CI and produces readable reports."
 ---

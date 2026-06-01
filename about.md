@@ -2,11 +2,15 @@
 layout: page
 title: "About"
 eyebrow: "Professional profile"
-description: "I am Dmitrii Vyrikov, a QA Automation Engineer focused on Java test automation that gives teams fast, reliable feedback."
+description: "I am Dmitrii tha, a QA Automation Engineer focused on Java test automation that gives teams fast, reliable feedback."
 permalink: /about/
 ---
 
 I specialize in Java-based QA automation for web UI and API layers. My goal is to make automated tests useful for real delivery: easy to run, readable during review, stable in CI, and diagnostic when something breaks.
+
+<p>
+  <a class="button" href="{{ '/assets/resume/resume.pdf' | relative_url }}" data-track="resume_download">Download resume.pdf</a>
+</p>
 
 I treat automation as engineering, not only as scripting. A good suite should answer practical questions quickly:
 

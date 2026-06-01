@@ -1,6 +1,6 @@
 ---
 title: "How I Design a Java UI Automation Framework"
-date: 2026-06-01
+date: 2026-02-20
 tags: ["Java", "Selenide", "UI automation", "Allure"]
 excerpt: "A practical structure for Java UI automation that keeps tests readable, framework code maintainable, and failures useful."
 ---
